@@ -5,40 +5,40 @@ Host daemon for KVM hypervisor/ This is a REST API daemon that will facilitate t
 
 Features
 
-Storage
-  - Ceph
-    + cephFS
-    + RBD
-  - Gluster
-  - Swift
-  - NFS
-  - iSCSI
-  - LVMoiSCSI
-  - LVMoFC
-  - ZFS
-
-Networking
-  - OVS
-    + DVS
-  - Native Bridge
-
-VM Lifecycle Management
-  - Start
-  - Stop
-  - Pause
-  - Resume
-  - Create
-  - Destroy
-  - Migrate
-
-Backup
-  - Snapshot
-  - Clone
-
-Compute Resource Management
-  - Host CPU
-  - Host Memory
-  - Host Storage
-  - Host Passthrough
+    Storage
+      - Ceph
+        + cephFS
+        + RBD
+      - Gluster
+      - Swift
+      - NFS
+      - iSCSI
+      - LVMoiSCSI
+      - LVMoFC
+      - ZFS
+    
+    Networking
+      - OVS
+        + DVS
+      - Native Bridge
+    
+    VM Lifecycle Management
+      - Start
+      - Stop
+      - Pause
+      - Resume
+      - Create
+      - Destroy
+      - Migrate
+    
+    Backup
+      - Snapshot
+      - Clone
+    
+    Compute Resource Management
+      - Host CPU
+      - Host Memory
+      - Host Storage
+      - Host Passthrough
 
 
